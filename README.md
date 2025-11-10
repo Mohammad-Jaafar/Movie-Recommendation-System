@@ -14,24 +14,28 @@ The goal of this project is to:
 
 ---
 
-## Machine Learning Techniques Used
-- **Collaborative Filtering (User-Based)** – recommends items by finding similar users using cosine similarity.
-- **Matrix Factorization (SVD)** – dimensionality reduction approach to capture latent relationships.
-- **Evaluation Metric:**
-  - Precision@K – measures how many of the top-K recommended movies are relevant.
+## Features
+
+-   Load and explore the MovieLens dataset
+-   Implement **User-Based** and **Item-Based Collaborative Filtering**
+-   Apply **Matrix Factorization (SVD)** for latent feature extraction
+-   Evaluate recommendations using **Precision@K**
+-   Build an interactive **Gradio web app**
+-   Visualize recommended movies for given users
 
 ---
 
-## Dataset
-- **Source:** [MovieLens 100K Dataset](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset)
-- **Files Used:**
-  - `u.data` → user–movie ratings (user_id, movie_id, rating, timestamp)
-  - `u.item` → movie titles and metadata
-- **Target:** Recommend top movies for each user.
-- **Features:** Implicit user–item interactions (ratings).
+## Technologies Used
 
+-   **Python 3.9+**
+-   **Pandas / NumPy**
+-   **Matplotlib / Seaborn**
+-   **Scikit-learn**
+-   **Surprise** (optional for SVD)
+-   **Gradio** (for web app)
 
 ---
+
 
 ## Project Structure
 ```
@@ -74,4 +78,4 @@ mhdjaafar24@gmail.com
 
 ---
 
-*If you find this project useful, please give it a star on GitHub!* ⭐
+*If you find this project useful, please give it a star on GitHub!*
