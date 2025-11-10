@@ -5,7 +5,7 @@ It demonstrates how **Collaborative Filtering** techniques can be applied to rea
 
 ---
 
-## Project Overview
+## Overview
 The goal of this project is to:
 - Explore and analyze the **MovieLens 100K** dataset from kaggle.
 - Implement **User-Based Collaborative Filtering** using **Cosine Similarity**.
@@ -47,26 +47,14 @@ Movie-Recommendation-System/
 
 ---
 
-## Installation & Setup
+## How to Run
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/Mohammad-Jaafar/Movie-Recommendation-System.git
-cd Movie-Recommendation-System
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the notebook
-You can open the notebook in Jupyter or Google Colab:
-```bash
-jupyter notebook Movie_Recommendation_System.ipynb
-```
-Or upload it directly to [Google Colab](https://colab.research.google.com/).
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mohammad-Jaafar/Movie-Recommendation-System.git
+   ```
+2. Open the notebook in Jupyter or Google Colab.
+3. Run all cells step-by-step to reproduce the results.
 ---
 
 ## Results & Demonstration
@@ -77,21 +65,12 @@ Or upload it directly to [Google Colab](https://colab.research.google.com/).
 
 ---
 
-## Future Improvements
-- Add **hybrid filtering** (combine user-based and item-based).
-- Integrate **content-based** features like genres and tags.
-- Implement **model persistence** with joblib or pickle.
-- Add a **modern web UI** (cards, posters, ratings).
-- Enable **real-time personalization**.
-
----
-
 ## Author
 **Mohammad Jaafar**  
 mhdjaafar24@gmail.com  
 [LinkedIn](https://www.linkedin.com/in/mohammad-jaafar-)  
-[GitHub](https://github.com/mhdjaafar24)  
-[HuggingFace](https://huggingface.co/mhdjaafar24)
+[HuggingFace](https://huggingface.co/Mhdjaafar)  
+[GitHub](https://github.com/Mohammad-Jaafar)
 
 ---
 
